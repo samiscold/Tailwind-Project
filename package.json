@@ -1,0 +1,22 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Samir Vllaço",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.8",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.0.23"
+  },"scripts": {
+    "build": "postcss tailwind.css -o dist/css/styles.css",
+    "watch": "postcss tailwind.css -o dist/css/styles.css --watch"
+    }
+    
+}
