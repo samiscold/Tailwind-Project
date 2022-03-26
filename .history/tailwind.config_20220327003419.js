@@ -4,7 +4,6 @@ module.exports = {
     debugScreens: {
       position: ['top', 'left'],
   }, extend: {},
-},
 plugins: [
  require('tailwindcss-debug-screens'),
  ]
